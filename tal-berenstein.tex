@@ -1,0 +1,149 @@
+% LaTeX source of my resume
+% =========================
+
+% Commented for easy reuse... ;)
+
+% See the `README.md` file for more info.
+
+% This file is licensed under the CC-NC-ND Creative Commons license.
+
+
+% Start a document with the here given default font size and paper size.
+\documentclass[10pt,a4paper]{article}
+
+% Set the page margins.
+\usepackage[a4paper,margin=0.75in]{geometry}
+
+% Setup the language.
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+
+% Makes resume-specific commands available.
+\usepackage{resume}
+
+
+
+
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax whitespacing in favour of straight margins
+
+
+% title on top of the document
+\maintitle{Tal Berenstein}{November 13, 1990}{Last update on \today}
+
+\nobreakvspace{0.3em}  % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\noindent\href{mailto:talivalpo.at.gmail.dot.com}{talivalpo\mbox{}@\mbox{}gmail.com}\sbull
+\textsmaller{+}46 0732 435729\sbull
+\href{https://github.com/talzeev}{github.com/talzeev}\sbull
+\href{http://linkedin.com/in/talzeev}{linkedin.com/in/talzeev}
+\\
+Rambergsvägen 15B,
+41713\thinspace {\large \sc }\sbull
+Göteborg\sbull
+Sweden
+
+\spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
+
+\roottitle{Summary}  % a root section title
+
+\vspace{-1.3em}  % some vertical spacing
+\begin{multicols}{2}  % open a multicolumn environment
+\noindent \emph{Entrepeneurial geek with roots in the open source movement. Passionately enabling software-related teams to deliver. Creates/\,improves processes trying to achieve best possible result. Adaptive both individuals and groups..}
+\\
+\\
+At the age of six (1996) I got my first laptop in a humble house in \emph{Valparaíso, Chile}.  An old one with \acr{Windows 3.1} on a \acr{IBM I-Series} laptop. Spending hours playing with the MS-DOS shell back those years, my passion for coding had started. 11 years later (2007) I attended my first conference on an emerging new product, the new Iphone 3G, at the \emph{Universidad Diego Portales} in \emph{Santiago}.
+
+After that conference I decided to study in the same University, motivated by the group of teachers and exposers at that conference. I taught myself a variety of skills, including system administration and programming (Java, Javascript, Ruby \& \CPP). At 2013 I was invited to a new Start-up with offices in Brazil. It was my first approach to SCRUM methodology.
+
+Extensively travelled Oceania and Asia when I started to feel I needed to achieve also a skill than I did not know I had it: natural languages. I taught myself Portuguese, English, and currently learning Swedish. All those years I have been working as a free-lance for different projects. Currently developing a new ticket system with React, Flutter, NodeJs, GraphQL, Apollo and MySql (personal project).
+
+
+
+\end{multicols}
+
+
+\spacedhrule{0em}{-0.4em}
+
+\roottitle{Experience}
+
+\headedsection
+  {\href{http://talzeev.github.io}{\acr{Tal Berentein - Freelance.}}}
+  {\textsc{Melbourne, Australia}} {%
+  \headedsubsection
+    {Freelance \acr{IT} Developer}
+    {Oct \apo16 -- present}
+    {\bodytext{Provides services related to software development such as:\@ coaching, audits, process improvement, web/cloud architecture, stack strategy and tender advise.  (Mostly but not only: NodeJS, GraphQL, React (Js and Native), Javascript, HTML5 and CSS, and PHP). Also worked with SQL and NoSQL databases.
+  \\ Clients:\@ \href{http://www.happycamperpizza.com.au}{HappyCamperPizza.com.au}, \href{https://delightchile.cl}{DelightChile.cl} \& \href{https://www.orakelforlag.se}{OrakelFörlag.se}.}}
+}
+
+\headedsection
+  {\href{http://www.gestsol.cl}{Gestsol}}
+  {\textsc{Sao Paulo, Brazil}} {%
+  \headedsubsection
+    {Front-end Developer}
+    {Apr \apo13 -- Oct \apo14}
+    {\bodytext{Front-end mobile and web developer using technologies such as: Ionic, Angular 1.x, CoffeeScript and Ruby on Rails 5.0. Mobile application similar to Netflix, fetching data from PHP endpoints to show in a video player developed by the team. Web application on CoffeeScript and Ruby on Rails fetching data and creating models from/to API developed in Elixir Erlang.}}
+}
+
+\headedsection
+  {\href{http://www.segurosfalabella.cl}{Seguros Falabella Corredores LTDA}}
+  {\textsc{Santiago, Chile}} {%
+  \headedsubsection
+    {Internship JAVA Software Developer}
+    {Dec \apo12 -- March\apo13}
+        {\bodytext{
+        Development, documentation and achieve requirements on Java software with JAVA(Spring)/ORACLE Database.
+        }}
+}
+
+
+\vspace{-0.2em}
+\begin{center}
+  \emph{\small Please refer to \href{http://www.linkedin.com/in/talzeec}{Tal's LinkedIn profile} for a more complete list of work experience along with recommendations.}
+\end{center}
+
+
+\spacedhrule{-0.2em}{-0.4em}
+
+\roottitle{Education}
+
+\headedsection
+  {\href{http://www.udp.cl}{Diego Portales University}}
+  {\textsc{Santiago, Chile}} {%
+  \headedsubsection
+    {BSc in Computer Science \textnormal{~(\acr{CS}~\,\&\,Telecomunications)}}
+    {2009 -- 2013}
+    
+}
+
+
+\spacedhrule{0.5em}{-0.4em}
+
+\roottitle{Another Skills}
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Teaching experience:}
+  {  Currently I am teaching how to use different tools and stacks for beginner developers on Udemy and Youtube for free. I am convinced that our career is one of the most (\emph{if not the most}) auto-didactic and the self-teach path to learning something so far away from basic users..}
+
+\vspace{0.5em}
+\inlineheadsection
+  {Natural languages:}
+  {Spanish \emph{(mother tongue)}, English \emph{(full professional proficiency)}, Portuguese \emph{(limited working proficiency)}, Swedish \emph{(elementary proficiency)} and Romanian \emph{(beginner)}.}
+
+
+\spacedhrule{1.6em}{-0.4em}
+
+\roottitle{Interests}
+
+\inlineheadsection
+  {Non-exhaustive and in alphabetical order:}
+  {art, Buddhism, cryptography, functional programming, chess, history, music (from classical and jazz to Berlin-techno), \acr{VRP}, poetry, philosophy, startups, travel, typography (e.g. \LaTeX), \acr{UX}-design and vegetarian cuisine.}
+
+
+\end{document}
