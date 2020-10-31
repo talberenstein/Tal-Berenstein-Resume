@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.30)  30 OCT 2020 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.30)  31 OCT 2020 05:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -501,11 +501,11 @@ Package rerunfilecheck Info: File `tal-berenstein.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 8352 strings out of 480608
- 130935 string characters out of 5903629
+ 8348 strings out of 480608
+ 130893 string characters out of 5903629
  451865 words of memory out of 5000000
  24054 multiletter control sequences out of 15000+600000
- 589380 words of font info for 82 fonts, out of 8000000 for 9000
+ 589086 words of font info for 80 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  42i,5n,46p,483b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/us
@@ -514,7 +514,7 @@ exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2020/t
 exmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on tal-berenstein.pdf (1 page, 188356 bytes).
+Output written on tal-berenstein.pdf (1 page, 188604 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
