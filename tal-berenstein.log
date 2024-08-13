@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  18 OCT 2023 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  13 AUG 2024 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,35 +499,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
 Package microtype Info: Character `013' is missing
 (microtype)             in font `OT1/qpl/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 147.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 147.
+
+Package relsize Warning: Font size 40.0pt is too large.
+(relsize)                Using 24.88pt instead on input line 100.
+
+
+Package relsize Warning: Font size 40.0pt is too large.
+(relsize)                Using 24.88pt instead on input line 115.
+
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 186.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 186.
+
 [2] (./tal-berenstein.aux)
 Package rerunfilecheck Info: File `tal-berenstein.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12174 strings out of 478268
- 195635 string characters out of 5846348
- 565747 words of memory out of 5000000
+ 12182 strings out of 478268
+ 195705 string characters out of 5846348
+ 568509 words of memory out of 5000000
  30156 multiletter control sequences out of 15000+600000
- 528325 words of font info for 103 fonts, out of 8000000 for 9000
+ 528883 words of font info for 107 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 75i,5n,77p,1048b,420s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,77p,1048b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/us
 r/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/local/t
 exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on tal-berenstein.pdf (2 pages, 194233 bytes).
+Output written on tal-berenstein.pdf (2 pages, 199130 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  37889 words of extra memory for PDF output out of 42996 (max. 10000000)
 
