@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.26)  26 NOV 2025 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.26)  26 NOV 2025 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -599,7 +599,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on tal-berenstein.pdf (2 pages, 198415 bytes).
+Output written on tal-berenstein.pdf (2 pages, 198419 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
