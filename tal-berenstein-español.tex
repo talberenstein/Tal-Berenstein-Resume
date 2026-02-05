@@ -1,0 +1,179 @@
+% LaTeX source of my resume
+% =========================
+
+% Commented for easy reuse... ;)
+
+% See the `README.md` file for more info.
+
+% This file is licensed under the CC-NC-ND Creative Commons license.
+
+
+% Start a document with the here given default font size and paper size.
+\documentclass[10pt,a4paper]{article}
+
+% Set the page margins.
+\usepackage[a4paper,margin=0.75in]{geometry}
+
+% Setup the language.
+\usepackage[spanish]{babel}
+\hyphenation{Some-long-word}
+
+% Makes resume-specific commands available.
+\usepackage{resume}
+
+
+
+
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax whitespacing in favour of straight margins
+
+
+% title on top of the document
+\maintitle{Tal Berenstein}{13 de noviembre, 1990}{Última actualización \today}
+
+\nobreakvspace{0.3em}  % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\noindent\href{mailto:tal.berenstein@pm.me}{tal.berenstein\mbox{}@\mbox{}pm.me}\sbull
+\textsmaller{+}46 765535845\sbull
+\href{https://github.com/talberenstein}{github.com/talberenstein}\sbull
+\href{https://www.linkedin.com/in/tali-berenstein-torres-94055726b/}{linkedin.com/tal-berenstein}
+\\
+Oceano Pacifico 12,
+01010\thinspace {\large \sc }\sbull
+Vitoria-Gasteiz\sbull
+Álava, España
+
+\spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
+
+\roottitle{Resumen}  % a root section title
+
+\vspace{-1.3em}  % some vertical spacing
+\begin{multicols}{2}  % open a multicolumn environment
+\noindent
+\emph{Ingeniero de Software Senior y Líder Técnico con más de 10 años de experiencia arquitectando y entregando soluciones full-stack escalables. Experto en TypeScript, React, Node.js y AWS con un historial comprobado liderando equipos de ingeniería de alto rendimiento en Volvo Group. Pionero en la integración de flujos de trabajo de desarrollo aumentados con IA (MCP, GitHub Copilot) y prácticas modernas de QA. Apasionado por mentorizar ingenieros, establecer patrones de arquitectura limpia y promover la excelencia técnica en equipos multiculturales. Actualmente desarrollando aplicaciones E2E para Escuelas Montessori mientras lidero iniciativas frontend y QA en soluciones de vehículos conectados.}
+
+\columnbreak
+
+\end{multicols}
+
+\noindent
+\textbf{Palabras clave:}
+Ingeniero de Software Senior,
+Líder Funcional,
+AWS,
+React,
+Typescript,
+NodeJS,
+Volvo Group.
+\\
+\textbf{Certificaciones:}
+Certificación Scrum (\href{https://scrum.org}{SCRUM.org})
+Certificado de Líder Funcional Global (\href{https://globalleadership.com}{GlobalLeadership.com})
+
+
+\spacedhrule{0em}{-0.4em}
+
+\roottitle{Experiencia}
+
+\headedsection
+  {\href{https://www.volvogroup.com/en/about-us/organization/other-entities/volvo-group-connected-solutions.html}{\acr{Volvo Group}}}
+  {\textsc{Gotemburgo, Suecia}} {%
+  \headedsubsection
+    {Ingeniero de Software Senior / Líder Técnico FE}
+    {Ene \apo23 -- presente}
+    {\bodytext{
+    Liderando el desarrollo frontend y el equipo de ingeniería QA para el portal de soluciones conectadas. Arquitectando e implementando aplicaciones escalables usando TypeScript, React y Node.js con infraestructura AWS. Integrando agentes de IA y protocolos MCP (Kiro) junto con GitHub Copilot para mejorar la velocidad de desarrollo. Estableciendo prácticas modernas de QA con Playwright para pruebas end-to-end y Figma para flujos de trabajo diseño-código. Promoviendo prácticas progresivas de revisión de código enfocadas en arquitectura, mantenibilidad y compartir conocimiento en equipo. Mentorizando ingenieros junior en principios de arquitectura limpia y desarrollo aumentado con IA.
+
+\sbull Palabras clave: TypeScript, React, Node.js, AWS, React Native, Desarrollo iOS, Agentes IA, MCP, GitHub Copilot, Playwright, Figma, Liderazgo de Equipos, Revisión de Código, Arquitectura Limpia, CI/CD
+
+    }}
+
+  \headedsubsection
+    {Ingeniero de Software Profesional}
+    {Ene \apo21 -- Dic \apo22}
+    {\bodytext{
+    Desarrollé soluciones full-stack para el portal de diagnóstico de vehículos conectados. Construí frontends responsivos con React y TypeScript, servicios backend con Node.js y desplegué en AWS. Implementé pipelines CI/CD y contribuí a establecer estándares de codificación en el equipo.
+
+\sbull Palabras clave: TypeScript, React, Node.js, AWS, DevOps, Desarrollo Ágil
+
+    }}
+}
+
+\headedsection
+  {\href{http://talberenstein.github.io}{\acr{Tal Berentein - Freelance.}}}
+  {\textsc{Melbourne, Australia}} {%
+  \headedsubsection
+    {Desarrollador \acr{Full-Stack} Freelance}
+    {Oct \apo16 -- Ene\apo20}
+    {\bodytext{Proporcioné servicios relacionados con desarrollo de software tales como:\@ coaching, auditorías, mejora de procesos, arquitectura web/cloud y estrategias de stack tecnológico. (Principalmente pero no limitado a: NodeJS, GraphQL, React (Js y Native), Javascript, HTML5 y CSS, PHP). También trabajé con bases de datos SQL y NoSQL.
+  \\ Clientes:\@ \href{http://www.happycamperpizza.com.au}{HappyCamperPizza.com.au}, \href{https://delightchile.cl}{DelightChile.cl} \& \href{https://www.orakelforlag.se}{OrakelFörlag.se}.}}
+}
+
+\headedsection
+  {\href{http://www.gestsol.cl}{Gestsol}}
+  {\textsc{Santiago, Chile}} {%
+  \headedsubsection
+    {Desarrollador Front-end}
+    {Abr \apo15-- Oct \apo16}
+    {\bodytext{Desarrollador front-end móvil y web usando tecnologías como Ionic, Angular 1.x, CoffeeScript y Ruby on Rails 5.0. Aplicación móvil similar a Netflix, obteniendo datos de endpoints PHP para mostrar en un reproductor de video desarrollado por el equipo. Aplicación web GPS en tiempo real en CoffeeScript y Ruby on Rails obteniendo datos y creando modelos desde/hacia API desarrollada en Elixir Erlang.}}
+}
+
+
+\vspace{-0.2em}
+\begin{center}
+  \emph{\small Por favor consulte el \href{https://www.linkedin.com/in/tali-berenstein-torres-94055726b/}{perfil de LinkedIn de Tal} para una lista más completa de experiencia laboral junto con recomendaciones.}
+\end{center}
+
+
+\spacedhrule{-0.2em}{-0.4em}
+
+\roottitle{Educación}
+
+\headedsection
+  {\href{https://www.globalleadership.com/en/l}{Global Leadership}}
+  {\textsc{Gothenburg, Sweden}} {%
+  \headedsubsection
+    {Global Functional Leader}
+    {Sept '23 -- March '24}
+    
+}
+
+\headedsection
+  {\href{http://www.udp.cl}{Universidad Diego Portales}}
+  {\textsc{Santiago, Chile}} {%
+  \headedsubsection
+    {Ingeniería Civil Informática y Telecomunicaciones\textnormal{~(\acr{CS}~\,\&\,Telecomunicaciones)}}
+    {2009 -- 2013}
+    
+}
+
+
+\spacedhrule{0.5em}{-0.4em}
+
+\roottitle{Otras Habilidades}
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Experiencia docente:}
+  {  Actualmente, estoy enseñando a un pequeño grupo de desarrolladores junior sobre React, Typescript y arquitectura CLEAN, para que puedan conseguir su primer trabajo en este apasionante campo. }
+
+\vspace{0.5em}
+\inlineheadsection
+  {Idiomas naturales:}
+  {Español \emph{(lengua materna)}, Inglés \emph{(dominio profesional completo)}, Sueco \emph{(dominio profesional)} y Portugués \emph{(dominio profesional limitado)} }
+
+
+\spacedhrule{1.6em}{-0.4em}
+
+\roottitle{Intereses}
+
+\inlineheadsection
+  {No exhaustivo y en orden alfabético:}
+  {Ajedrez, Arte, Budismo, Cocina, Criptografía, Diseño UX, Filosofía, Historia, Música (amor especial por el Tango Argentino), Natación, Natación en aguas abiertas, Poesía, Programación funcional, Startups, Tipografía (ej. LaTeX), Viajes, VRP (Problema de Ruteo de Vehículos)}
+
+
+\end{document}

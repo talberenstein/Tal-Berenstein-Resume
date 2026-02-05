@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  5 FEB 2026 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  5 FEB 2026 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**tal-berenstein.tex
-(./tal-berenstein.tex
+**tal-berenstein-español.tex
+(./tal-berenstein-español.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -345,11 +345,11 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box96
 )
-(./tal-berenstein.aux
+(./tal-berenstein-español.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-\openout1 = `tal-berenstein.aux'.
+\openout1 = `tal-berenstein-español.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -422,9 +422,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
- (./tal-berenstein.out) (./tal-berenstein.out)
+ (./tal-berenstein-español.out) (./tal-berenstein-español.out)
 \@outlinefile=\write3
-\openout3 = `tal-berenstein.out'.
+\openout3 = `tal-berenstein-español.out'.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -510,28 +510,29 @@ Package relsize Warning: Font size 40.0pt is too large.
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./tal-berenstein.aux
+[2] (./tal-berenstein-español.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package rerunfilecheck Info: File `tal-berenstein.out' has not changed.
+Package rerunfilecheck Info: File `tal-berenstein-español.out' has not change
+d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  12550 strings out of 478268
- 200396 string characters out of 5846348
- 575867 words of memory out of 5000000
+ 200566 string characters out of 5846348
+ 575791 words of memory out of 5000000
  30538 multiletter control sequences out of 15000+600000
  525207 words of font info for 99 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 75i,5n,77p,1048b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,77p,1058b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/us
 r/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/local/t
 exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on tal-berenstein.pdf (2 pages, 195025 bytes).
+Output written on tal-berenstein-español.pdf (2 pages, 195888 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

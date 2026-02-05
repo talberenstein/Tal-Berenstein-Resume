@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  5 FEB 2026 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.8)  5 FEB 2026 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**tal-berenstein.tex
-(./tal-berenstein.tex
+**tal-berenstein-english.tex
+(./tal-berenstein-english.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -60,14 +60,14 @@ Package: babel 2022/02/26 3.73 The Babel package
 \bbl@readstream=\read2
 \bbl@dirlevel=\count197
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks18
-\es@quotdepth=\count198
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
 ))
 (./resume.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/mdwtools/mdwlist.sty
@@ -75,14 +75,14 @@ Package: mdwlist 1996/05/02 1.1 Various list-related things
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count199
+\c@tracingmulticols=\count198
 \mult@box=\box50
 \multicol@leftmargin=\dimen148
-\c@unbalance=\count266
-\c@collectmore=\count267
-\doublecol@number=\count268
-\multicoltolerance=\count269
-\multicolpretolerance=\count270
+\c@unbalance=\count199
+\c@collectmore=\count266
+\doublecol@number=\count267
+\multicoltolerance=\count268
+\multicolpretolerance=\count269
 \full@width=\dimen149
 \page@free=\dimen150
 \premulticols=\dimen151
@@ -132,15 +132,15 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
-\c@minrows=\count271
-\c@columnbadness=\count272
-\c@finalcolumnbadness=\count273
+\c@minrows=\count270
+\c@columnbadness=\count271
+\c@finalcolumnbadness=\count272
 \last@try=\dimen154
 \multicolovershoot=\dimen155
 \multicolundershoot=\dimen156
 \mult@nat@firstbox=\box93
 \colbreak@box=\box94
-\mc@col@check@num=\count274
+\mc@col@check@num=\count273
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -184,8 +184,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen157
-\Hy@linkcounter=\count275
-\Hy@pagecounter=\count276
+\Hy@linkcounter=\count274
+\Hy@pagecounter=\count275
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
@@ -198,7 +198,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count277
+\Hy@SavedSpaceFactor=\count276
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
@@ -212,7 +212,7 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count278
+\c@Hy@tempcnt=\count277
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -228,7 +228,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count279
+\Fld@menulength=\count278
 \Field@Width=\dimen159
 \Fld@charsize=\dimen160
 Package hyperref Info: Hyper figures OFF on input line 6027.
@@ -245,9 +245,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count280
-\c@Item=\count281
-\c@Hfootnote=\count282
+\Hy@abspage=\count279
+\c@Item=\count280
+\c@Hfootnote=\count281
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -259,8 +259,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count283
-\c@bookmark@seq@number=\count284
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -306,18 +306,18 @@ Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count285
+\etb@tempcnta=\count284
 )
-\MT@toks=\toks19
+\MT@toks=\toks18
 \MT@tempbox=\box95
-\MT@count=\count286
+\MT@count=\count285
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
 LaTeX Info: Redefining \leftprotrusion on input line 1028.
 LaTeX Info: Redefining \rightprotrusion on input line 1036.
 LaTeX Info: Redefining \textls on input line 1195.
 \MT@outer@kern=\dimen161
 LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count287
+\MT@listname@count=\count286
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
@@ -342,14 +342,11 @@ File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
+\l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box96
 )
-(./tal-berenstein.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-)
-\openout1 = `tal-berenstein.aux'.
+(./tal-berenstein-english.aux)
+\openout1 = `tal-berenstein-english.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -404,8 +401,6 @@ LaTeX Font Info:    ... okay on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
 Package hyperref Info: Link coloring ON on input line 27.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -417,29 +412,29 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count288
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
- (./tal-berenstein.out) (./tal-berenstein.out)
+ (./tal-berenstein-english.out) (./tal-berenstein-english.out)
 \@outlinefile=\write3
-\openout3 = `tal-berenstein.out'.
+\openout3 = `tal-berenstein-english.out'.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
+\scratchcounter=\count289
 \scratchdimen=\dimen162
 \scratchbox=\box97
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count293
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count292
 \MPscratchDim=\dimen163
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks21
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks20
 )
 LaTeX Info: Redefining \microtypecontext on input line 27.
 Package microtype Info: Applying patch `item' on input line 27.
@@ -459,7 +454,7 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-Overfull \vbox (6.50299pt too high) detected at line 32
+Overfull \vbox (5.09949pt too high) detected at line 32
  []
 
 
@@ -507,34 +502,36 @@ Package relsize Warning: Font size 40.0pt is too large.
 Package relsize Warning: Font size 40.0pt is too large.
 (relsize)                Using 24.88pt instead on input line 105.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 176.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 176.
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./tal-berenstein.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-)
-Package rerunfilecheck Info: File `tal-berenstein.out' has not changed.
+[2] (./tal-berenstein-english.aux)
+Package rerunfilecheck Info: File `tal-berenstein-english.out' has not changed.
+
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12550 strings out of 478268
- 200396 string characters out of 5846348
- 575867 words of memory out of 5000000
- 30538 multiletter control sequences out of 15000+600000
- 525207 words of font info for 99 fonts, out of 8000000 for 9000
+ 12173 strings out of 478268
+ 195745 string characters out of 5846348
+ 567500 words of memory out of 5000000
+ 30153 multiletter control sequences out of 15000+600000
+ 525757 words of font info for 103 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 75i,5n,77p,1048b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,77p,1056b,420s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/us
 r/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/local/t
 exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on tal-berenstein.pdf (2 pages, 195025 bytes).
+Output written on tal-berenstein-english.pdf (2 pages, 197553 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 34305 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 35841 words of extra memory for PDF output out of 42996 (max. 10000000)
 
