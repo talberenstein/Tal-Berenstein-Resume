@@ -1,0 +1,204 @@
+% LaTeX source of my resume
+% =========================
+
+% Commented for easy reuse... ;)
+
+% See the `README.md` file for more info.
+
+% This file is licensed under the CC-NC-ND Creative Commons license.
+
+
+% Start a document with the here given default font size and paper size.
+\documentclass[10pt,a4paper]{article}
+
+% Set the page margins.
+\usepackage[a4paper,margin=0.75in]{geometry}
+
+% Setup the language.
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+
+% Makes resume-specific commands available.
+\usepackage{resume}
+
+
+
+
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax whitespacing in favour of straight margins
+
+
+% title on top of the document
+\maintitle{Tal Berenstein}{November 13, 1990}{Last update on \today}
+
+\nobreakvspace{0.3em}  % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\noindent\href{mailto:tal.berenstein@pm.me}{tal.berenstein\mbox{}@\mbox{}pm.me}\sbull
+\textsmaller{+}46 765535845\sbull
+\href{https://github.com/talberenstein}{github.com/talberenstein}\sbull
+\href{https://www.linkedin.com/in/tali-berenstein-torres-94055726b/}{linkedin.com/tal-berenstein}
+\\
+Konvaljegatan 5A,
+41716\thinspace {\large \sc }\sbull
+Göteborg\sbull
+Sweden
+
+\spacedhrule{0.9em}{-0.4em}  % a horizontal line with some vertical spacing before and after
+
+\roottitle{Summary}  % a root section title
+
+\vspace{-1.3em}  % some vertical spacing
+\begin{multicols}{2}  % open a multicolumn environment
+\noindent \emph{Senior Software Engineer at Volvo Group.
+Expert in enabling software delivery, optimizing workflows, and leading multicultural teams to success. I combine an entrepreneurial spirit with a people-first approach to engineering leadership.}
+\\
+\\
+With a technical foundation established in \emph{Valparaíso, Chile}, and academic training at \emph{Universidad Diego Portales} in \emph{Santiago}, I have developed a career defined by continuous technical evolution. My expertise spans system administration and core languages including Typescript, Java, Python, and \CPP. My commitment to agile practices was established early at a Brazilian startup and formalized as a Professional Scrum Master\texttrademark.
+
+Extensive freelance work across Oceania and Asia honed my ability to deliver technical solutions within diverse multicultural environments and expanded my linguistic skills in Portuguese, English, and Swedish. Currently, I balance technical leadership with active development at Volvo Group Connected Solutions. While managing a team of Front-end developers and designers, I remain a hands-on engineer, actively contributing to the codebase and driving technical delivery. I am also enhancing my strategic overview through the \href{https://www.globalleadership.com/en/}{\acr{Global Functional Leaders}} program in Gothenburg.
+\end{multicols}
+
+\vspace{0.5em} % Add a little breathing room after the columns
+
+\noindent \sbull \textbf{Languages \& Frameworks:} TypeScript(NextJS, React, NodeJS), Java (Spring Boot), Python(Basic Jupiter and TensorFlow), GraphQL, SQL, NoSQL.\\
+\sbull \textbf{Cloud \& DevOps:} AWS (Fargate, Lambda, CloudWatch), CI/CD(Code PipeLines, Github Actions), Docker, Grafana, Git (Gerrit, Github, Bitbucket\\
+\sbull \textbf{Methodologies:} Scrum (PSM I), Technical Leadership, Clean Architecture, Microservices, Agile.
+
+
+\spacedhrule{1em}{-0.4em}
+\roottitle{Experience}
+
+% --- ROLE 1: The New QA / AWS Role ---
+\headedsection
+  {\href{https://www.volvogroup.com/en/}{\acr{Volvo Group}}}
+  {\textsc{Gothenburg, Sweden}} {%
+  \headedsubsection
+    { \acr{Senior Software Engineer (Quality Assurance Team)} }
+    {Jul \apo 25 -- present} % <--- UPDATE DATES HERE
+    {\bodytext{Served as the \textbf{Typescript expert} for the QA initiative, architecting a robust test runner to ensure platform stability for over 100,000+ users.
+    
+    \sbull \textbf{Cloud Infrastructure:} Designed and implemented a scalable testing environment using \textbf{AWS} (Fargate, CodePipelines, Lambda, S3, Secrets Manager).\\
+    \sbull \textbf{Reliability \& Monitoring:} Established active monitoring dashboards using \textbf{Grafana} and CloudWatch, ensuring a bug-free environment and high availability.\\
+    \sbull \textbf{Outcome:} Successfully automated quality checks that guarantee the integrity of the platform across the complete micro-service stack.
+    }}
+}
+
+% --- ROLE 2:  Tech Lead Role ---
+\headedsection
+  {\href{https://www.volvogroup.com/en/}{\acr{Volvo Group}}}
+  {\textsc{Gothenburg, Sweden}} {%
+  \headedsubsection
+    { \acr{Senior Software Engineer / Tech Lead} }
+    {Feb \apo23 -- Jul\apo25}
+    {\bodytext{Leading the frontend domain while remaining a hands-on contributor. I guide a team of developers in delivering rich, responsive web applications and PWAs, balancing technical leadership with active coding.
+    
+    \sbull \textbf{Leadership \& Mentoring:} Provided strategic guidance and coaching to engineers, enhancing problem-solving skills and accelerating project timelines.\\
+    \sbull \textbf{Technical Delivery:} Driving code quality, optimization, and architectural decisions to ensure high-performance deliverables.\\
+    \sbull \textbf{Process Improvement:} Developed technical training sessions that improved team proficiency in modern frameworks, resulting in a 75\% increase in development efficiency and a measurable decrease in reported bugs.
+    }}
+}
+
+% --- ROLE 3: Previous Role (Added Java/Spring Boot) ---
+\headedsection
+  {\href{https://www.volvogroup.com/en/}{\acr{Volvo Group}}}
+  {\textsc{Gothenburg, Sweden}} {%
+  \headedsubsection
+    { \acr{Professional Software Engineer} }
+    {Feb \apo21 -- Feb \apo23}
+    {\bodytext{Developed technical tools and applications within an agile team to enable in-depth troubleshooting and data analysis for connected solutions.
+    
+    \sbull \textbf{Backend Development:} Built and maintained scalable micro-services using \textbf{Java and Spring Boot}, ensuring robust data processing and API integration.\\
+    \sbull \textbf{Frontend Architecture:} Developed the frontend stack using React, adhering to Clean Architecture and DRY principles.\\
+    \sbull \textbf{DevOps \& Tools:} Managed source code via Gerrit/GitHub and deployed using AWS cloud services and CI/CD pipelines.\\
+        }}
+}
+
+% --- FREELANCE ---
+\headedsection
+  {\href{http://talberenstein.github.io}{\acr{Tal Berentein - Freelance}}}
+  {\textsc{Melbourne, Australia}} {%
+  \headedsubsection
+    {Freelance \acr{Full-Stack} Developer}
+    {Oct \apo17 -- Jan \apo21}
+    {\bodytext{Delivered comprehensive software solutions ranging from architectural audits to cloud strategy and process optimization.
+    \sbull \textbf{Stack:} NodeJS, GraphQL, React (Web/Native), PHP, SQL, and NoSQL.\\
+    \sbull \textbf{Clients:} \href{http://www.happycamperpizza.com.au}{HappyCamperPizza.com.au}, \href{https://delightchile.cl}{DelightChile.cl} \& \href{https://www.orakelforlag.se}{OrakelFörlag.se}.}}
+}
+
+% --- PREVIOUS CHILE ROLE ---
+\headedsection
+  {\href{http://www.gestsol.cl}{Gestsol}}
+  {\textsc{Santiago, Chile}} {%
+  \headedsubsection
+    {Front-end Developer}
+    {Apr \apo15-- Oct \apo16}
+    {\bodytext{Engineered high-performance mobile and web applications using Ionic, Angular, and Ruby on Rails. Key projects included a video streaming platform and a real-time GPS tracking system integrated with Elixir/Erlang backends.}}
+}
+
+\vspace{-0.2em}
+\begin{center}
+  \emph{\small Please refer to \href{https://www.linkedin.com/in/tali-berenstein-torres-94055726b/}{Tal's LinkedIn profile} for a more complete list of work experience along with recommendations.}
+\end{center}
+
+
+\spacedhrule{-0.2em}{-0.4em}
+
+\roottitle{Education \& Certifications}
+
+\headedsection
+  {\href{https://www.globalleadership.com/en/}{Global Functional Leaders}}
+  {\textsc{Gothenburg, Sweden}} {%
+  \headedsubsection
+    {Leadership Development Program}
+    {Sept \apo23 -- March \apo24}
+    {}
+}
+
+\headedsection
+  {\href{https://www.scrum.org/}{Scrum.org}}
+  {\textsc{Online Certification}} {%
+  \headedsubsection
+    {Professional Scrum Master I (PSM I)}
+    {May \apo21}
+    {}
+}
+
+\headedsection
+  {\href{http://www.udp.cl}{Diego Portales University}}
+  {\textsc{Santiago, Chile}} {%
+  \headedsubsection
+    {BSc in Computer Science \textnormal{~(\acr{CS}~\,\&\,Telecommunications)}}
+    {2009 -- 2013}
+    {}
+}
+
+
+\spacedhrule{0.5em}{-0.4em}
+
+\roottitle{Another Skills}
+
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Teaching experience:}
+  {  Currently, I am teaching a small group of junior developers about React, Typescript, and CLEAN architecture, so they can get their first job in this passionate field. }
+
+\vspace{0.5em}
+\inlineheadsection
+  {Natural languages:}
+  {Spanish \emph{(mother tongue)}, English \emph{(full professional proficiency)}, Swedish \emph{(working proficiency)} and Portuguese \emph{(limited working proficiency)} }
+
+
+\spacedhrule{1.6em}{-0.4em}
+
+\roottitle{Interests}
+
+\inlineheadsection
+  {Non-exhaustive and in alphabetical order:}
+  {Analog Photography (Home film development), Biking, Chess, Cryptography, Functional programming, History, Music (special love for Argentinian Tango), Open water swimming, Philosophy, Startups, Travel, Typography (e.g. \LaTeX), \acr{UX}-design, Vegetarian cuisine, \acr{VRP} (Vehicle Routing Problem)}
+
+
+\end{document}
